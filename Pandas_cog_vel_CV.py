@@ -104,8 +104,8 @@ def pandas_group():
     #df_cc_cog = df_cc_cog.reset_index()
     #df_cc_vel = df_cc_vel.reset_index()
 
-    print(df_cc_vel)
-    print(df_cc_cog)
+    #print(df_cc_vel)
+    #print(df_cc_cog)
     csv_path1 =str(new_dir.rstrip('csv/'))+'/CC'+str(i)+'cog.csv'
     csv_path2 =str(new_dir.rstrip('csv/'))+'/CC'+str(i)+'vel.csv'
     #csv_path =str(new_dir.rstrip('csv/'))+'/CC'+str(i)+'vel.csv'
